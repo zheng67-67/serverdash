@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 用户配置（含个人阈值，不入库）
+config.toml
+*.local.toml
+.env
+.env.*
+
+# 运行时产物
+artifacts/
+*.log
+*.png
+*.trace
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地测试
+test-*/
+tmp/
+sandbox/
